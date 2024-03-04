@@ -23,6 +23,7 @@ class CalculatorProvider with ChangeNotifier {
       default:
         compController.text += value;
     }
+    //for having the cusor always at the end
     compController.selection = TextSelection.fromPosition(
       TextPosition(offset: compController.text.length),
     );
