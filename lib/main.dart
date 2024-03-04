@@ -3,8 +3,6 @@ import 'package:calculator_app/screens/home_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import 'widgets/custom_text_field.dart';
-
 //packages used :
 //function_tree : for implementing business logic
 //provider : for state management
